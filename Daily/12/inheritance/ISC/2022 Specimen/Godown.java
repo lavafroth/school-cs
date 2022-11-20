@@ -9,9 +9,10 @@ class Godown {
     qty = Iqty;
     rate = Drate;
   }
+
   void display() {
-    System.out.printf("Item name: %s\nQuantity: %d\nRate: %f\nAmount: %f\n",
-                      item, qty, rate, qty * rate);
+    System.out.printf(
+        "Item name: %s\nQuantity: %d\nRate: %f\nAmount: %f\n", item, qty, rate, qty * rate);
   }
 }
 
